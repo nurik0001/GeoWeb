@@ -1,0 +1,141 @@
+/* Общий стиль */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  /* Верхняя панель */
+ 
+  /* Основной заголовок */
+  .header {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    
+   
+    margin-left: 10.5%;
+        margin-right: 13%;
+        height:68px;
+  }
+  
+  /* Языковая панель */
+  .language-container {
+    display: flex;
+    gap: px;
+    margin-left:  90%;
+    margin-top: 0;
+    color: white;
+    
+  }
+  .header-logo{
+    height: 40px;
+    background-color: #21B482; /* Зеленый фон */
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .lang-button {
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+    font-size: 16px;
+    padding: 5px 10px;
+    
+  }
+  
+  .lang-button.active {
+    color: #f7fbfb; /* Зеленый цвет активной кнопки */
+  }
+  
+  /* Навигация */
+  .navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-link.active {
+    color: #21B482; /* Зеленый цвет для активной кнопки */
+    border-bottom: 2px solid #21B482; /* Подчеркнутый активный элемент */
+  }
+  
+  /* Основной контент */
+  main {
+    padding: 20px;
+  }
+  /* Стиль футера */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21B482;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для текста внутри футера */
+/* Общее оформление футера */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Ссылки в футере */
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Если контента мало, футер будет внизу */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+    padding-bottom: 60px; /* Учитываем высоту футера */
+}

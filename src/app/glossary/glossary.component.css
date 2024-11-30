@@ -1,0 +1,54 @@
+/* Стили для раздела словаря */
+.dictionary {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.dictionary h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dictionary p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dictionary-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.term {
+    flex: 1;
+    max-width: 350px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.term:hover {
+    transform: translateY(-5px);
+}
+
+.term h3 {
+    font-size: 1.5rem;
+    color: #007b5e;
+    margin-bottom: 10px;
+}
+
+.term p {
+    font-size: 1.1rem;
+    color: #444;
+}

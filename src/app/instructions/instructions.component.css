@@ -1,0 +1,1185 @@
+.instructions {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructions h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .instructions h2 {
+    font-size: 22px;
+    color: #1e90ff;
+    margin-bottom: 10px;
+  }
+  
+  .instructions p, .instructions ol {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .instructions ol {
+    margin-left: 20px;
+  }
+  
+  .instructions i {
+    color: #1e90ff;
+    margin-right: 10px;
+  }
+  
+  .instructions li {
+    margin-bottom: 10px;
+  }
+  
+  .instructions i.fas {
+    font-size: 18px;
+  }
+  .instructions {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructions-header h1 {
+    text-align: center;
+    color: #2d6a4f;
+    font-size: 2rem;
+  }
+  
+  .instructions-content h2 {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    color: #2d6a4f;
+  }
+  
+  .instructions-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .instructions-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructions-section header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .instructions-section h1 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+  }
+  
+  .instructions-section p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .instructions-section h2 {
+    font-size: 1.6rem;
+    color: #2d6a4f;
+    margin-top: 20px;
+  }
+  
+  .instructions-section ul,
+  .instructions-section ol {
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .instructions-section li {
+    margin-bottom: 10px;
+  }
+  
+  .instructions-section ol li {
+    list-style-type: decimal;
+  }
+  
+  .instructions-section ul li {
+    list-style-type: disc;
+  }
+  
+  .instructions-section strong {
+    color: #2d6a4f;
+  }
+  .map-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+  }
+  
+  .map {
+    height: 400px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .control-button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .control-button:hover {
+    background-color: #1e4d35;
+  }
+  
+  .control-button i {
+    margin-right: 8px;
+  }
+  .admin-panel {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 30px;
+  }
+  
+  .admin-button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .admin-button:hover {
+    background-color: #1e4d35;
+  }
+  
+  .admin-button i {
+    margin-right: 8px;
+  }
+  
+  .user-management, .data-management {
+    display: flex;
+    justify-content: space-around;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #FF9800;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #2196F3;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #2196F3;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #FF9800;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #8bc34a;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #ff9800;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #4caf50;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .step-icon {
+    font-size: 30px;
+    color: #4caf50;
+    margin-right: 10px;
+  }
+  
+  .step-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  .map-management {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+  }
+  
+  .map-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-map-btn {
+    padding: 10px 20px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .add-map-btn:hover {
+    background-color: #1e4d35;
+  }
+  
+  .maps-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .maps-table th, .maps-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .maps-table th {
+    background-color: #2d6a4f;
+    color: white;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #2d6a4f;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .edit-btn:hover, .delete-btn:hover {
+    background-color: #1e4d35;
+  }
+  .edit-map {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-map h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.edit-map label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.edit-map input[type="text"], .edit-map textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.edit-map button.save-btn {
+    padding: 12px 30px;
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.edit-map button.save-btn:hover {
+    background-color: #1e4d35;
+}
+.add-layer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-layer h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.add-layer label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.add-layer input[type="text"], .add-layer select, .add-layer input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.add-layer button.submit-btn {
+    padding: 12px 30px;
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.add-layer button.submit-btn:hover {
+    background-color: #1e4d35;
+}
+.user-management {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-management h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th, .user-list td {
+    padding: 12px;
+    text-align: left;
+}
+
+.user-list th {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.user-list td {
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.add-user-btn {
+    padding: 12px 30px;
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-user-btn:hover, .user-list button:hover {
+    background-color: #1e4d35;
+}
+.map-management {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-management h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.map-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.map-list th, .map-list td {
+    padding: 12px;
+    text-align: left;
+}
+
+.map-list th {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.map-list td {
+    border-bottom: 1px solid #ccc;
+}
+
+.map-list button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.add-map-btn {
+    padding: 12px 30px;
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-map-btn:hover, .map-list button:hover {
+    background-color: #1e4d35;
+}
+.edit-map {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-map h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.map-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.map-form input, .map-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.map-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-btn, .cancel-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.save-btn:hover {
+    background-color: #1e4d35;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+.create-map {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-map h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.map-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.map-form input, .map-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.map-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-btn, .cancel-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.save-btn:hover {
+    background-color: #1e4d35;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+.add-layer {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-layer h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.layer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.layer-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.layer-form input, .layer-form select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.layer-form input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-btn, .cancel-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.cancel-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.save-btn:hover {
+    background-color: #1e4d35;
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f;
+}
+.manage-maps {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-maps h2 {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.add-map-btn {
+    padding: 10px 20px;
+    background-color: #2d6a4f;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-map-btn:hover {
+    background-color: #1e4d35;
+}
+
+.maps-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.maps-table th, .maps-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.maps-table th {
+    background-color: #2d6a4f;
+    color: #fff;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.edit-btn {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+.directory-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .add-button {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-directory {
+    display: none;
+    margin-bottom: 20px;
+  }
+  
+  .add-directory input {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  .add-directory button {
+    padding: 8px 15px;
+    background-color: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .directory-list {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .directory-list th, .directory-list td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .directory-list th {
+    background-color: #2d6a4f;
+    color: #fff;
+  }
+  
+  .directory-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .directory-list button {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .directory-list .edit {
+    background-color: #4caf50;
+  }
+  
+  .directory-list button:hover {
+    opacity: 0.8;
+  }
+  .directory-management {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #2d6a4f;
+}
+
+.add-record {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.directory-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.directory-table th, .directory-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.directory-table th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #2d6a4f;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #f8c42d;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e53935;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1e4d35;
+}

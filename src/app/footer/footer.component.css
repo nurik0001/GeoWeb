@@ -1,0 +1,28 @@
+/* Стиль для компонента Footer */
+.footer {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-link {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: #f1c40f;
+  }
+  
